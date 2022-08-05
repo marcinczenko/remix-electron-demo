@@ -1,0 +1,20 @@
+node_modules
+
+.cache
+build
+build
+.env
+dist
+app/styles/app.css
+
+# yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# macos
+.DS_Store

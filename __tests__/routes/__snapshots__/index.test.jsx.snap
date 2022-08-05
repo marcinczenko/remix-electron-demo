@@ -1,0 +1,22 @@
+// Vitest Snapshot v1
+
+exports[`index > looks great > Index Route Snapshot 1`] = `
+<DocumentFragment>
+  <main>
+    <div
+      class="w-screen h-screen flex flex-col justify-center items-center bg-blue-900 text-white"
+    >
+      <h1
+        class="text-3xl font-bold"
+      >
+        remix-electron
+      </h1>
+      <p
+        class="text-xs"
+      >
+        test-path
+      </p>
+    </div>
+  </main>
+</DocumentFragment>
+`;
