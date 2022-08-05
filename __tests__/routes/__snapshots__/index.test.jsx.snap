@@ -9,7 +9,7 @@ exports[`index > looks great > Index Route Snapshot 1`] = `
       <h1
         class="text-3xl font-bold"
       >
-        remix-electron
+        remix-electron-demo
       </h1>
       <p
         class="text-xs"
