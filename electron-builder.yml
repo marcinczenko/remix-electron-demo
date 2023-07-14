@@ -1,0 +1,22 @@
+appId: 'marcinczenko.remix-electron-demo'
+productName: remix-electron-demo
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+files:
+  - filter:
+      - desktop
+      - public
+      - remix.config.js
+extraResources:
+  - filter:
+      - extraResources/**
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  perMachine: false
+  allowElevation: false
+  packElevateHelper: false
+  include: nsis-custom-installer.nsh

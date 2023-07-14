@@ -1,10 +1,11 @@
 import { vi } from 'vitest'
 import { render, screen } from '@testing-library/react'
 
-import Home from '../../app/routes/index'
+import Home from '../../app/routes/_index'
 
 vi.mock('@remix-run/react', async () => {
-  const mod = await vi.importActual < typeof import('@remix-run/react') > ('some-path')
+  const mod =
+    (await vi.importActual) < typeof import('@remix-run/react') > 'some-path'
   return {
     ...mod,
     useLoaderData: vi.fn().mockReturnValue({
